@@ -1,9 +1,9 @@
-export interface User{
+export interface User {
     id: string;
     name:string; 
 }
 
-export const userEmptyState: User ={
+export const UserEmptyState: User ={
     id: '',
     name: ''
-}; 
+};
