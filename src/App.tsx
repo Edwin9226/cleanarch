@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css';
 import { Home } from './pages/home';
-import store from './redux/store';
 import { useSelector } from 'react-redux';
 import { AppStore } from './redux/store';
 
